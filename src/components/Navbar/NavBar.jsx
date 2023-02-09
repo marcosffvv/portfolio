@@ -19,7 +19,7 @@ const NavBar = () => {
 
   return (
     <div className="flex justify-between items-center w-full h-20 px-10 text-white bg-stone-900/80 backdrop-blur fixed
-    drop-shadow-[0px_7px_5px_rgba(8,145,178,0.1)]">
+    drop-shadow-[0px_2px_2px_rgba(8,145,178,0.8)]">
       <div>
         <Link to="Home" smooth duration={500}>
           <h1 className="text-5xl text-slate-300 font-signature cursor-pointer hover:text-sky-100 hover:scale-110 duration-200">MF</h1>

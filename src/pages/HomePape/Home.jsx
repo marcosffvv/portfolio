@@ -1,7 +1,7 @@
 import React from "react";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
-import webdev from "../../assets/profile/webdev.png"
+import img1 from "../../assets/profile/inicio.avif"
 import SocMediaLinks from "../../components/Socials/Socials";
 
 
@@ -19,9 +19,9 @@ const Home = () => {
 
             <div className="flex">
               <Link
-                to="projects"
+                to="Proyectos"
                 smooth
-                duration={500}
+                duration={1500}
                 className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r
                 from-cyan-500 to-blue-500 cursor-pointer hover:scale-105 duration-500"
                 >
@@ -39,7 +39,7 @@ const Home = () => {
           </div>
 
           <div>
-            <img src={webdev} alt="my profile" className="h-72 md:h-96"/>
+            <img src={img1} alt="my profile" className="h-72 md:h-96"/>
           </div>
 
         </div>

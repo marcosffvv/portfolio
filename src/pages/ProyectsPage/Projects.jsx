@@ -11,45 +11,45 @@ const Projects = () => {
   const projectsList = [
     {
       id: 1,
-      name: "Game of Front",
+      name: "react-game-of-thrones",
       src: got,
-      hrefCodigo: "https://ecom-estore.netlify.app/",
-      hrefWeb: "https://github.com/Rahmathirshad/E-Commerce---Website",
+      hrefCodigo: "https://github.com/marcosffvv/react-game-of-thrones",
+      hrefWeb: "https://react-game-of-thrones-tau.vercel.app/",
     },
     {
       id: 2,
-      name: "proyect 2",
+      name: "angular-shopéame",
       src: got,
-      hrefCodigo: "https://aifacereco.netlify.app/",
-      hrefWeb: "https://github.com/Rahmathirshad/Face-Recognition-App",
+      hrefCodigo: "https://github.com/marcosffvv/front-shopeame",
+      hrefWeb: "https://shopeame-taupe.vercel.app/",
     },
     {
       id: 3,
-      name: "proyect 3",
+      name: "js-pokeapi",
       src: got,
-      hrefCodigo: "https://rahmathirshad.netlify.app/",
-      hrefWeb: "https://github.com/Rahmathirshad/Personal-Portfolio",
+      hrefCodigo: "https://github.com/marcosffvv/pokedex-pokeapi",
+      hrefWeb: "https://pokedex-pokeapi-five.vercel.app/",
     },
     {
       id: 4,
-      name: "proyect 4",
+      name: "react-reloj",
       src: got,
-      hrefCodigo: "https://rahmathirshad.github.io/robo-friends-app/",
-      hrefWeb: "https://github.com/Rahmathirshad/robo-friends-app",
+      hrefCodigo: "https://github.com/marcosffvv/reloj-react",
+      hrefWeb: "https://reloj-react-zeta.vercel.app/",
     },
     {
       id: 5,
-      name: "proyect 5",
+      name: "angular-exchanges",
       src: got,
-      hrefCodigo: "https://mydailytodos.netlify.app/",
-      hrefWeb: "https://github.com/Rahmathirshad/Todos-App",
+      hrefCodigo: "https://github.com/marcosffvv/exchanges-angular",
+      hrefWeb: "https://exchanges-angular.vercel.app/conversor",
     },
     {
       id: 6,
-      name: "proyect 6",
+      name: "react-disney-api",
       src: got,
-      hrefCodigo: "https://filedownloader1.netlify.app/",
-      hrefWeb: "https://github.com/Rahmathirshad/File_Downloader--Vanilla_JavaScript",
+      hrefCodigo: "https://github.com/marcosffvv/react-disney-gallery",
+      hrefWeb: "https://react-disney-gallery.vercel.app/",
     },
   ];
 
@@ -63,19 +63,19 @@ const Projects = () => {
         </div>
 
         <div className="grid text-center sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {projectsList.map(({ id, name, src, hrefLive, hrefCode }) => (
+          {projectsList.map(({ id, name, src, hrefCodigo, hrefWeb }) => (
             <div key={id} className="shadow-xl rounded-b-md duration-300 hover:scale-150">
 
               <div>
-                <img src={src} alt={name} className="rounded-t-md"/>
+                {/* <img src={src} alt={name} className="rounded-t-md"/> */}
               <p className="bg-gray-900  font-semibold">{name}</p>
               </div>
               <div className="flex items-center justify-center bg-zinc-900 rounded-b-md">
                 <button className="w-1/2 px-6 py-2 m-1 duration-200 hover:scale-110 text-sky-400">
-                  <a href={hrefCode} target="_blank" rel="noreferrer">Código</a>
+                  <a href={hrefCodigo} target="_blank" rel="noreferrer">Código</a>
                 </button>
                 <button className="w-1/2 px-6 py-2 m-1 duration-200 hover:scale-110 text-sky-400">
-                  <a href={hrefLive} target="_blank" rel="noreferrer">Web</a>
+                  <a href={hrefWeb} target="_blank" rel="noreferrer">Web</a>
                 </button>
               </div>
             </div>

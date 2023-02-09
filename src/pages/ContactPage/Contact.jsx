@@ -7,12 +7,12 @@ const Contact = () => {
 
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-white-500">Contáctame</p>
-          <p className="py-6">Si quieres enviarme un correo, estaré encantado</p>
+          <p className="py-6">(Temporalmente deshabilitado 😥 disculpa las molestias)</p>
         </div>
 
         <div className=" flex justify-center items-center">
           <form
-            action="https://getform.io/f/e0c17fd9-a3da-4829-abab-95361b1f4ee3"
+            action=""// mailto:marcosfrailefdz@gmail.com
             method="POST"
             className=" flex flex-col w-full md:w-1/2"
           >

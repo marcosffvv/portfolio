@@ -1,7 +1,7 @@
 import React from "react";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
-import img1 from "../../assets/profile/inicio.avif"
+import img1 from "../../assets/profile/inicio.png"
 import SocMediaLinks from "../../components/Socials/Socials";
 
 

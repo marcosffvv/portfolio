@@ -5,49 +5,49 @@ import React from "react";
 // import proyect4 from "../assets/portfolio/proyect4.jpg";
 // import proyect5 from "../assets/portfolio/proyect5.jpg";
 // import proyect6 from "../assets/portfolio/proyect6.jpg";
-import got from "../../assets/portfolio/GOT.jpg";
+import img from "../../assets/portfolio/proyects.png";
 
 const Projects = () => {
   const projectsList = [
     {
       id: 1,
-      name: "react-game-of-thrones",
-      src: got,
+      name: "REACT-GAME-OF-THRONES",
+      src: img,
       hrefCodigo: "https://github.com/marcosffvv/react-game-of-thrones",
       hrefWeb: "https://react-game-of-thrones-tau.vercel.app/",
     },
     {
       id: 2,
-      name: "angular-shopéame",
-      src: got,
+      name: "ANGULAR-SHOPEAME",
+      src: img,
       hrefCodigo: "https://github.com/marcosffvv/front-shopeame",
       hrefWeb: "https://shopeame-taupe.vercel.app/",
     },
     {
       id: 3,
-      name: "js-pokeapi",
-      src: got,
+      name: "JAVASCRIPT-POKEAPI",
+      src: img,
       hrefCodigo: "https://github.com/marcosffvv/pokedex-pokeapi",
       hrefWeb: "https://pokedex-pokeapi-five.vercel.app/",
     },
     {
       id: 4,
-      name: "react-reloj",
-      src: got,
+      name: "REACT-RELOJ",
+      src: img,
       hrefCodigo: "https://github.com/marcosffvv/reloj-react",
       hrefWeb: "https://reloj-react-zeta.vercel.app/",
     },
     {
       id: 5,
-      name: "angular-exchanges",
-      src: got,
+      name: "ANGULAR-EXCHANGES",
+      src: img,
       hrefCodigo: "https://github.com/marcosffvv/exchanges-angular",
       hrefWeb: "https://exchanges-angular.vercel.app/conversor",
     },
     {
       id: 6,
-      name: "react-disney-api",
-      src: got,
+      name: "REACT-DISNEY-API",
+      src: img,
       hrefCodigo: "https://github.com/marcosffvv/react-disney-gallery",
       hrefWeb: "https://react-disney-gallery.vercel.app/",
     },
@@ -59,7 +59,7 @@ const Projects = () => {
 
         <div className="pb-2">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">Proyectos</p>
-          <p className="py-6">Pudes ver mis proyectos más importantes en este apartado o en el enlace a GitHUb</p>
+          <p className="py-6">Pudes ver el código en GitHUb o visitar la web desplegada en Vercel 📲</p>
         </div>
 
         <div className="grid text-center sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
@@ -67,7 +67,7 @@ const Projects = () => {
             <div key={id} className="shadow-xl rounded-b-md duration-300 hover:scale-150">
 
               <div>
-                {/* <img src={src} alt={name} className="rounded-t-md"/> */}
+                <img src={src} alt={name} className="rounded-t-md w-full"/>
               <p className="bg-gray-900  font-semibold">{name}</p>
               </div>
               <div className="flex items-center justify-center bg-zinc-900 rounded-b-md">

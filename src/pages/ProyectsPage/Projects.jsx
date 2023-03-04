@@ -11,38 +11,38 @@ const Projects = () => {
   const projectsList = [
     {
       id: 1,
+      name: "REACT-APPLERGIC",
+      src: img,
+      hrefCodigo: "https://github.com/marcosffvv/applergic-front",
+      hrefWeb: "https://applergic-front-marcosffvv.vercel.app/",
+    },
+    {
+      id: 2,
       name: "REACT-GAME-OF-THRONES",
       src: img,
       hrefCodigo: "https://github.com/marcosffvv/react-game-of-thrones",
       hrefWeb: "https://react-game-of-thrones-tau.vercel.app/",
     },
     {
-      id: 2,
+      id: 3,
       name: "ANGULAR-SHOPEAME",
       src: img,
       hrefCodigo: "https://github.com/marcosffvv/front-shopeame",
       hrefWeb: "https://shopeame-taupe.vercel.app/",
     },
     {
-      id: 3,
+      id: 4,
       name: "JAVASCRIPT-POKEAPI",
       src: img,
       hrefCodigo: "https://github.com/marcosffvv/pokedex-pokeapi",
       hrefWeb: "https://pokedex-pokeapi-five.vercel.app/",
     },
     {
-      id: 4,
+      id: 5,
       name: "REACT-RELOJ",
       src: img,
       hrefCodigo: "https://github.com/marcosffvv/reloj-react",
       hrefWeb: "https://reloj-react-zeta.vercel.app/",
-    },
-    {
-      id: 5,
-      name: "ANGULAR-EXCHANGES",
-      src: img,
-      hrefCodigo: "https://github.com/marcosffvv/exchanges-angular",
-      hrefWeb: "https://exchanges-angular.vercel.app/conversor",
     },
     {
       id: 6,

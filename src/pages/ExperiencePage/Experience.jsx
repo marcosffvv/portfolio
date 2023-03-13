@@ -4,13 +4,13 @@ import react from "../../assets/logos/react.svg";
 import html from "../../assets/logos/html.svg";
 import css from "../../assets/logos/css.svg";
 import javascript from "../../assets/logos/_javascript.png";
-import github from "../../assets/logos/_github.png";
-import next from "../../assets/logos/_nextjs.png";
+import net from "../../assets/logos/net.png";
+import ce from "../../assets/logos/c.svg";
 import php from "../../assets/logos/php.svg";
 import angular from "../../assets/logos/angular.svg";
 import node from "../../assets/logos/nodejs.svg";
 import mongo from "../../assets/logos/mongo.svg";
-import sql from "../../assets/logos/sql.svg";
+import sql from "../../assets/logos/sql.png";
 import symfony from "../../assets/logos/symfony.svg";
 
 const Experience = () => {
@@ -63,31 +63,31 @@ const Experience = () => {
       title: "MongoDB",
       style: "shadow-green-500",
     },
+    
     {
       id: 9,
-      src: sql,
-      title: "MySQL",
-      style: "shadow-blue-300",
-    },
-    {
-      id: 10,
-      src: next,
-      title: "NextJS",
-      style: "shadow-gray-300",
-    },
-    {
-      id: 11,
-      src: github,
-      title: "GitHub",
-      style: "shadow-gray-300",
-    },
-    {
-      id: 12,
       src: symfony,
       title: "Symfony",
       style: "shadow-gray-300",
     },
-
+    {
+      id: 10,
+      src: ce,
+      title: "C#",
+      style: "shadow-purple-400",
+    },
+    {
+      id: 11,
+      src: net,
+      title: ".Net",
+      style: "shadow-gray-300",
+    },
+    {
+      id: 12,
+      src: sql,
+      title: "SQL Server",
+      style: "shadow-gray-300",
+    }
   ];
 
   return (

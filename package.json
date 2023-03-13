@@ -15,11 +15,7 @@
     "react-dom": "^18.2.0",
     "react-icons": "^4.7.1",
     "react-scroll": "^1.8.9",
-<<<<<<< HEAD
-    "sass": "^1.58.0"
-=======
     "sendgrid": "^5.2.3"
->>>>>>> 8e6b98369a28ca3fd75c534172de0883275ee88a
   },
   "devDependencies": {
     "@types/react": "^18.0.26",

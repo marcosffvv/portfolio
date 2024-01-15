@@ -8,10 +8,10 @@ const About = () => {
 
         <div className="lg:pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-white-500">Sobre Mí</p>
-          <p className="text-xl mt-5 lg:mt-20">Hola, mi nombre es Marcos Fraile y soy Full Stack Developer 👨‍💻</p>
+          <p className="text-xl mt-5 lg:mt-20">Hola, mi nombre es Marcos Fraile y soy SQL Data Developer en e8D Soluciones 👨‍💻</p>
         </div>
 
-        <p>Mi objetivo principal como programador es mantener el codigo de mis proyectos limpio y optimizado 🚀</p>
+        <p>En mi día a día me dedico a tareas de control de calidad y errores, gestión de copias de seguridad y generación de informes 🚀</p>
         <p>Me apasiona el trabajo en equipo y las metodologías ágiles</p>
         <p>Siempre estoy pensando en la mejor forma de que el usuario se sienta cómodo 🤩</p>
         <p>Espero acabar compitiendo con los mejores desarrolladores y rodeado de personas con mucho nivel 🏆</p>

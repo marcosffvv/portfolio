@@ -1,9 +1,6 @@
 import React from "react";
 
 import react from "../../assets/logos/react.svg";
-import html from "../../assets/logos/html.svg";
-import css from "../../assets/logos/css.svg";
-import javascript from "../../assets/logos/_javascript.png";
 import net from "../../assets/logos/net.png";
 import ce from "../../assets/logos/c.svg";
 import php from "../../assets/logos/php.svg";
@@ -15,24 +12,6 @@ import symfony from "../../assets/logos/symfony.svg";
 
 const Experience = () => {
   const techs = [
-    {
-      id: 1,
-      src: html,
-      title: "HTML",
-      style: "shadow-orange-600",
-    },
-    {
-      id: 2,
-      src: css,
-      title: "CSS",
-      style: "shadow-blue-500",
-    },
-    {
-      id: 3,
-      src: javascript,
-      title: "JavaScript",
-      style: "shadow-yellow-500",
-    },
     {
       id: 4,
       src: node,

@@ -12,30 +12,11 @@ const Home = () => {
 
           <div className="flex flex-col justify-center h-full">
             
-            <p className="text-gray-500 text-2xl py-4 max-w-md">Hola, soy</p>
-            <h2 className="text-4xl sm:text-7xl font-bold text-white">Marcos</h2>
-            <h2 className="text-4xl sm:text-7xl  text-white">Fraile</h2>
-            <p className="text-gray-500 text-lg py-4 max-w-md md:text-2xl">FULL STACK DEVELOPER 👨‍💻</p>
+            <h2 className="text-4xl sm:text-7xl text-white">SQL Data Developer</h2>
+            <br/>
+            <br/>
+            <h2 className="text-4xl sm:text-7xl  text-white">Web Developer</h2>
 
-            <div className="flex">
-              <Link
-                to="Proyectos"
-                smooth
-                duration={1500}
-                className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r
-                from-cyan-500 to-blue-500 cursor-pointer hover:scale-105 duration-500"
-                >
-                Proyectos
-                <span className="group-hover:rotate-90 duration-300">
-                  <MdOutlineKeyboardArrowRight size={25} className="ml-1"/>
-                </span>
-              </Link>
-
-              <div className="py-4 px-8">
-                <SocMediaLinks/>
-              </div>
-              
-            </div>
           </div>
 
           <div>
